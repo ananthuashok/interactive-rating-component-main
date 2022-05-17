@@ -5,7 +5,7 @@ workflow.md
 style-guide.md
 README-template.md
 design
-*.scss
+
 .xd
 
 .DS_Store
