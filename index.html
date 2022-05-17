@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Interactive Rating Component</title>
+</head>
+<body>
+  <!-- This is the rating card container -->
+  <div class="rating-card">
+    <!-- This is the image of the star -->
+    <img id="star" src="./images/icon-star.svg" alt="Star">
+    <h2 id="heading">How did we do ?</h2>
+    <p id="para">Please let us know how we did with your support request.All feedback is appreciated to help us improve our offering!</p>
+    <!-- This is the rating component -->
+    <div class="rating-component">
+      <!-- The ratings with a specific id and a common class -->
+      <div class="rating" id="one">1</div>
+      <div class="rating" id="two">2</div>
+      <div class="rating" id="three">3</div>
+      <div class="rating" id="four">4</div>
+      <div class="rating" id="five">5</div>
+    </div>
+    <!-- This container contains the submit button -->
+    <div class="btn-container">
+      <button id="btn">SUBMIT</button>
+    </div>
+  </div>
+  <!-- This card will have exact dimensions of first card -->
+  <div class="thank-you-card">
+    <!-- This container is used to center the image -->
+    <div class="image-container">
+      <img id="thank-you" src="./images/illustration-thank-you.svg" alt="thank-you-image">
+    </div>
+    <!-- This div will contain the message that will be injected dynamically using javascript -->
+    <div id="message"></div>
+    <!-- This container will have the thank you to the customer -->
+    <div class="thanks-container">
+      <h2>Thank You !</h2>
+      <p>We appreciate you taking the time to give a rating.</p>
+      <p>If you ever need more support,don't hesitate to get in touch !</p>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
